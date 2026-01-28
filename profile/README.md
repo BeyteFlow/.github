@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/BeyteFlow/.github/main/profile/banner.png" alt="BeyteFlow Banner" width="100%">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=6,11,20,29&text=BeyteFlow&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Innovating%20Open-Source%20Projects%20%7C%20Building%20Interactive%20Applications&descSize=18&descAlignY=55&textBg=false"/>
 </p>
 
 <h1 align="center">⚡ BΞYTΞFLʘW ⚡</h1>
