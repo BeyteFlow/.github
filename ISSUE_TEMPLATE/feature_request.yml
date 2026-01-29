@@ -1,0 +1,39 @@
+name: "🚀 Feature Request"
+description: Propose a new byte of innovation for the ecosystem
+title: "[ENHANCEMENT]: <short description>"
+labels: ["enhancement", "discussion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 💡 New Logic Proposal
+        Have an idea to improve the BeyteFlow ecosystem? We're listening.
+  - type: textarea
+    id: feature-idea
+    attributes:
+      label: "The Vision"
+      description: What is your idea?
+      placeholder: "I propose we add a liquid-animation library to the core UI..."
+    validations:
+      required: true
+  - type: textarea
+    id: problem-solved
+    attributes:
+      label: "Problem Statement"
+      description: Does this solve a specific pain point?
+      placeholder: "Currently, the transitions feel too rigid..."
+  - type: textarea
+    id: implementation-ideas
+    attributes:
+      label: "Implementation Sketch"
+      description: Any thoughts on how we should build this?
+      placeholder: "We could use Framer Motion with a custom hook..."
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: "Checklist"
+      options:
+        - label: "I am willing to help build this feature."
+          required: false
+        - label: "I have checked that this feature hasn't been proposed already."
+          required: true
