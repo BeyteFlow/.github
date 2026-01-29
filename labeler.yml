@@ -1,0 +1,16 @@
+# Configuration for the Auto-Labeler robot
+Documentation:
+  - changed-files:
+    - any-glob-to-any-file: '**/*.md'
+
+Automation:
+  - changed-files:
+    - any-glob-to-any-file: '.github/workflows/**'
+
+Profile:
+  - changed-files:
+    - any-glob-to-any-file: 'profile/**'
+
+Templates:
+  - changed-files:
+    - any-glob-to-any-file: '.github/ISSUE_TEMPLATE/**'
