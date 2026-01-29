@@ -1,0 +1,16 @@
+name: 🌌 BeyteFlow Welcome
+
+on: [pull_request_target, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+      - uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: "⚡ **Connection Established!** Thank you for opening your first issue in the BeyteFlow ecosystem. Our core maintainers will intercept this stream shortly."
+          pr-message: "🚀 **Incoming Transmission!** Welcome to the flow. Your first Pull Request has been received. Our automated diagnostics are now scanning your bytes."
