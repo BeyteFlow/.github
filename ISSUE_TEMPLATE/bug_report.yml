@@ -1,0 +1,46 @@
+name: "👾 Bug Report"
+description: Report a glitch in the BeyteFlow stream
+title: "[GLITCH]: <short description>"
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 🚨 System Malfunction Detected
+        Thank you for helping us stabilize the flow. Please provide as much detail as possible.
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: "What happened?"
+      description: A clear and concise description of the glitch.
+      placeholder: "e.g., The neon-glow button doesn't trigger on mobile devices..."
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction-steps
+    attributes:
+      label: "Reproduction Protocol"
+      description: How do we recreate this glitch?
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. See error
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: "Severity Level"
+      options:
+        - "Low (UI/UX visual glitch)"
+        - "Medium (Functionality partially impaired)"
+        - "High (System crash / Blocking progress)"
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: "Environment Information"
+      placeholder: "e.g., Chrome 120, Windows 11, Next.js 14"
+    validations:
+      required: true
