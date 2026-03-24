@@ -33,6 +33,4 @@
 **Timestamp:** {{ date }}
 
 ---
-<p align="right">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00f2ff&height=50&section=footer" width="20%"/>
-</p>
+
